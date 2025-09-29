@@ -1,0 +1,5 @@
+- O que é união discriminada e por que ela é necessária?
+
+É uma técnica que combina uma union com um discriminador, que indica qual membro da união está sendo usado no momento. 
+A união permite que diferentes tipos de dados compartilhem o mesmo espaço de memória, mas apenas um valor é valido por vez. 
+Sem o discriminador não há como saber qual campo da união está ativo e isso ajuda a evitar erros ao acessar campos incorretos da união.
