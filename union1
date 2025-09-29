@@ -1,0 +1,7 @@
+- Qual é a diferença entre struct e union. Dê exemplos de uso que identifiquem a necessidade dos dois construtores de tipos.
+
+A diferença principal entre eles:
+Struct -> Cada campo tem seu próprio espaço de memória. O compilador reserva memória para todos os campos e todos os campos existem ao mesmo tempo.
+Ex: Representar uma pessoa, um produto.
+Union -> Todos os campos compartilham o mesmo espaço de memória. O compilador armazena um valor por vez, logo, apenas um membro existe por vez.
+Ex: Registro de hardware, token de analisador léxico.
